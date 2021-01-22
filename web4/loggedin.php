@@ -1,5 +1,7 @@
 <?php
-   // test cookies if is set, display if set
+   if(!isset($_COOKIE['auth'])){
+     header("Location: /phpsandbox/index.php");
+   }
 ?>
 <html lang="en">
 <head>
